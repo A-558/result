@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            RESULT
+        </title>
+        <style>
+            .main{
+                background: linear-gradient(45deg,blue,rgb(209, 63, 197),brown,yellow,rgb(0, 162, 255));
+                color: #fff;
+                max-width: 20%;
+                padding: 50px;
+                margin-left: 30%;
+                margin-top: 10%;
+                border-radius: 10%;
+                box-shadow: 0 12px 15px rgba(0, 0, 0, 1);
+               
+            }
+            .b button{
+                color: #fff;
+                text-align: center;
+                background: linear-gradient(45deg , white, orange);
+            }
+            .b button:hover {
+                cursor: pointer;
+                background: linear-gradient(45deg , white, orange);
+                border-radius: 20%;
+                color: black;
+                box-shadow: 0 12px 15px rgba(0, 0, 0, 1);
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <h2>RESULTS</h2>
+            <form onsubmit="return tm()">
+                <div>
+                    <label>Your marks</label><br>
+                    <input type="text" id="text1" >
+                </div><br>
+                <div>
+                    <label> TOTAL MARKS</label><br>
+                    <input type="text" id="text2">
+                </div><br>
+                <div class="b">
+                    <button> check</button>
+                </div><br>
+                
+                <div>
+                    <label>Grade</label><br>
+                    <input type="text" id="grade">
+                </div><br>
+                <div>
+                    <label>Persentage</label><br>
+                    <input type="text" id = "result">
+                </div><br>
+                <div>
+                    <script src="./per.js"></script>
+                </div>
+            
+            </form>
+        </div>
+    </body>
+</html>
