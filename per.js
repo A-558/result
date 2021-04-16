@@ -32,6 +32,12 @@ function tm(){
       console.log("B");
       document.getElementById('grade').value = 'B';
   }
+  else if ( a>>b )
+  {
+      console.log("error");
+      document.getElementById('grade').value = 'error';
+      document.getElementById('result').value = 'error';
+  }
   else {
       console.log("fail");
       document.getElementById('grade').value = 'fail';
